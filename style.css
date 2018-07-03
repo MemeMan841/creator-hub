@@ -91,8 +91,66 @@ footer p{
 	width: 100px;
 	border-radius: 50%;
 	margin-right: 15px;
+	margin-top: 15px;
 }
 
 .socialMedia li{
 	display: inline-block;
 }
+
+.socialMedia h2{
+	margin-bottom: 0;
+}
+
+/*media queries*/
+@media(min-width: 770px){
+
+	/*.banner{
+		background-color: green;
+	}*/
+
+	nav li{
+		display: inline-block;
+	}
+
+	nav a{
+		padding: 15px;
+	}
+
+	.columnLeft{
+		float: left;
+		padding: 10px;
+		width: 70%;
+	}
+
+	.columnRight{
+		float: left;
+		padding: 10px;
+		width: 22%;
+		text-align: center;
+	}
+
+	.footerContainer{
+		clear: both;
+	}
+
+	.socialMedia li{
+		display: block;
+	}
+
+	.socialMedia img{
+		margin-right: 0;
+		margin-top: 15px;
+	}
+
+	.socialMedia h2{
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+
+
+
